@@ -5,8 +5,20 @@ class MyClass:
     def get_value(self):
         return self.value
 
+    # Mohamed Essawey
+    def generate_fibonacci(*,N):
+        a, b = 0, 1
+        for _ in range(N):
+            print(a, end=' ')
+            a, b = b, a + b
+
+
 # Creating an instance of the class
-obj = MyClass("Hello, World!")
+MyClass_Obj = MyClass(value = "Hello, World!")
+
+# Mohamed Essawey - 202000440
+MyClass_Obj.generate_fibonacci(N = 10)
+
 
 # Accessing the class attribute and method
-print(obj.get_value())  # Output: Hello, World!
+print(MyClass_Obj.get_value())  # Output: Hello, World!
