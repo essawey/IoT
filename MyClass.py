@@ -5,8 +5,24 @@ class MyClass:
     def get_value(self):
         return self.value
 
-# Creating an instance of the class
-obj = MyClass("Hello, World!")
+    def set_value(self, new_value):
+        self.value = new_value
 
-# Accessing the class attribute and method
-print(obj.get_value())  # Output: Hello, World!
+    def generate_fibonacci(self):
+        a, b = 0, 1
+        for _ in range(self.value):
+            print(a, end=' ')
+            a, b = b, a + b
+        else:
+          print()
+
+
+MyClass_Obj = MyClass(value=10)
+
+MyClass_Obj.generate_fibonacci()
+
+print("Current Value:", MyClass_Obj.get_value())
+
+MyClass_Obj.set_value(20)
+
+print("Updated Value:", MyClass_Obj.get_value())
