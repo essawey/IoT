@@ -38,7 +38,10 @@ class MyClass:
             else:
                 divisor += 1
         return factors
-
+    
+    def squareRoot(self):
+        return self.value ** 0.5
+        
 MyClass_Obj = MyClass(value=10)
 # Mohamed Essawey
 print(MyClass_Obj.generate_fibonacci())
@@ -46,3 +49,5 @@ print(MyClass_Obj.generate_fibonacci())
 print(MyClass_Obj.check_prime())
 # Esraa Negm
 print(MyClass_Obj.prime_factors())
+# Rawan 
+print(MyClass_Obj.squareRoot())
