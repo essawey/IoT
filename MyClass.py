@@ -43,4 +43,5 @@ MyClass_Obj = MyClass(value=10)
 
 print(MyClass_Obj.generate_fibonacci())
 print(MyClass_Obj.check_prime())
+
 print(MyClass_Obj.prime_factors())
