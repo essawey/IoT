@@ -10,19 +10,14 @@ class MyClass:
 
     def generate_fibonacci(self):
         a, b = 0, 1
+        fibonacci_list = []
         for _ in range(self.value):
-            print(a, end=' ')
+            fibonacci_list.append(a)
             a, b = b, a + b
-        else:
-          print()
+        return fibonacci_list
+
 
 
 MyClass_Obj = MyClass(value=10)
 
-MyClass_Obj.generate_fibonacci()
-
-print("Current Value:", MyClass_Obj.get_value())
-
-MyClass_Obj.set_value(20)
-
-print("Updated Value:", MyClass_Obj.get_value())
+print(MyClass_Obj.generate_fibonacci())

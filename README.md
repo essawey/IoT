@@ -11,4 +11,4 @@ To use the `MyClass` class in your Python project, follow these simple steps:
 2. Create an instance of the class:
 
 ```python
-obj = MyClass("Hello, World!")
+MyClass_Obj = MyClass(value=10)
