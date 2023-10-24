@@ -16,8 +16,18 @@ class MyClass:
             a, b = b, a + b
         return fibonacci_list
 
-
+    def check_prime(self):
+        if self.value <= 1:
+            return False
+        elif self.value == 2:
+            return True
+        else:
+            for i in range(2, int(self.value ** 0.5) + 1):
+                if self.value % i == 0:
+                    return False
+            return True
 
 MyClass_Obj = MyClass(value=10)
 
 print(MyClass_Obj.generate_fibonacci())
+print(MyClass_Obj.check_prime())
