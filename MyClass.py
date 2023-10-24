@@ -16,7 +16,6 @@ class MyClass:
             a, b = b, a + b
         return fibonacci_list
 
-
     def check_prime(self):
         if self.value <= 1:
             return False
