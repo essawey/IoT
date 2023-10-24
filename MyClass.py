@@ -42,9 +42,6 @@ class MyClass:
     def squareRoot(self):
         return self.value ** 0.5
 
-    def power(self):
-        return self.value ** 2
-
         
 
 
@@ -52,11 +49,12 @@ MyClass_Obj = MyClass(value=10)
 
 # Mohamed Essawey
 print(MyClass_Obj.generate_fibonacci())
+
 # Amira Ahmed
 print(MyClass_Obj.check_prime())
+
 # Esraa Negm
 print(MyClass_Obj.prime_factors())
-# Rawan 
+
+# Rawan Elframawy
 print(MyClass_Obj.squareRoot())
-#samaa
-print(MyClass_Obj.power())
