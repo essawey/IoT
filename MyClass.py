@@ -45,11 +45,6 @@ class MyClass:
     def power(self):
         return self.value ** 2
 
-
-    def power4(self):
-        return self.value ** 4
-
-
         
 
 
@@ -65,5 +60,3 @@ print(MyClass_Obj.prime_factors())
 print(MyClass_Obj.squareRoot())
 #samaa
 print(MyClass_Obj.power())
-#samaa
-print(MyClass_Obj.power4())
