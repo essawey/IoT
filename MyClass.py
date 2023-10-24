@@ -41,6 +41,9 @@ class MyClass:
     
     def squareRoot(self):
         return self.value ** 0.5
+
+    def power(self):
+        return self.value ** 2
         
 
 
@@ -54,3 +57,5 @@ print(MyClass_Obj.check_prime())
 print(MyClass_Obj.prime_factors())
 # Rawan 
 print(MyClass_Obj.squareRoot())
+#samaa
+print(MyClass_Obj.power())
