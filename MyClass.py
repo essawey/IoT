@@ -42,6 +42,12 @@ class MyClass:
     def squareRoot(self):
         return self.value ** 0.5
 
+
+    def Power(self):
+        return self.value ** 2
+
+    
+
         
 
 
@@ -58,3 +64,6 @@ print(MyClass_Obj.prime_factors())
 
 # Rawan Elframawy
 print(MyClass_Obj.squareRoot())
+
+# Samaa Maged 
+print(MyClass_Obj.Power())
