@@ -26,21 +26,3 @@ class MyClass:
                 if self.value % i == 0:
                     return False
             return True
-
-    def prime_factors(self):
-        factors = []
-        num = self.value
-        divisor = 2
-        while divisor <= num:
-            if num % divisor == 0:
-                factors.append(divisor)
-                num = num // divisor
-            else:
-                divisor += 1
-        return factors
-
-MyClass_Obj = MyClass(value=10)
-
-print(MyClass_Obj.generate_fibonacci())
-print(MyClass_Obj.check_prime())
-print(MyClass_Obj.prime_factors())
